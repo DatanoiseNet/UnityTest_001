@@ -1,0 +1,109 @@
+Initialize engine version: 4.3.3f1 (c8ca9b6b9936)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dumx.dll 9.18.13.3165]
+    Renderer: NVIDIA Quadro FX 880M
+    Vendor:   NVIDIA
+    VRAM:     978 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Marianne\Documents\GitHub\UnityTest_001\source\Builds\TestBuild_0001_WIN\game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Marianne\Documents\GitHub\UnityTest_001\source\Builds\TestBuild_0001_WIN\game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Marianne\Documents\GitHub\UnityTest_001\source\Builds\TestBuild_0001_WIN\game_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Marianne\Documents\GitHub\UnityTest_001\source\Builds\TestBuild_0001_WIN\game_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Marianne\Documents\GitHub\UnityTest_001\source\Builds\TestBuild_0001_WIN\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Marianne\Documents\GitHub\UnityTest_001\source\Builds\TestBuild_0001_WIN\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Marianne\Documents\GitHub\UnityTest_001\source\Builds\TestBuild_0001_WIN\game_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Marianne\Documents\GitHub\UnityTest_001\source\Builds\TestBuild_0001_WIN\game_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+- Completed reload, in  0.101 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Running as server. Player ID is 0.
+ 
+(Filename:  Line: 2479)
+
+The object Player must be a prefab in the project view.
+ 
+(Filename:  Line: 2458)
+
+Attempting to connect to master server at 87.238.194.227:23466
+ 
+(Filename:  Line: 2479)
+
+Connected to master server at 87.238.194.227:23466
+ 
+(Filename:  Line: 2479)
+
+Sent host registration to master server, registering a NAT assisted game as
+ "RoomName", 1, 6, not password protected, ""
+ 
+(Filename:  Line: 2489)
+
+Received identifier 0 from master server
+ 
+(Filename:  Line: 2479)
+
+Connected to facilitator at 67.225.180.24:50005
+
+ 
+(Filename:  Line: 2479)
+
+New connection established (192.168.1.245:49832)
+ 
+(Filename:  Line: 2479)
+
+Network protocol version 0 connected
+ 
+(Filename:  Line: 2489)
+
+New scope index 0 is now in scope for SceneID: 1 Level Prefix: 0
+ 
+(Filename:  Line: 2479)
+
+Allocated 2 batches of size 50 for player 1
+ 
+(Filename:  Line: 2489)
+
+Sent initalization to player 1
+ 
+(Filename:  Line: 2479)
+
+Sending generic initial state update, broadcast on, view ID 'SceneID: 1 Level Prefix: 0'
+
+ 
+(Filename:  Line: 2489)
+
+Sent host update to master server with identifier 0
+ 
+(Filename:  Line: 2479)
+
+Received identifier 0 from master server
+ 
+(Filename:  Line: 2479)
+
+Sending generic state update, broadcast on, view ID 'SceneID: 1 Level Prefix: 0'
+
+ 
+(Filename:  Line: 2489)
+
+Sending generic state update, broadcast on, view ID 'SceneID: 1 Level Prefix: 0'
+
+ 
+(Filename:  Line: 2489)
+
+Sending generic state update, broadcast on, view ID 'SceneID: 1 Level Prefix: 0'
+
+ 
+(Filename:  Line: 2489)
+
+Sending generic state update, broadcast on, view ID 'SceneID: 1 Level Prefix: 0'
+
+ 
+(Filename:  Line: 2489)
+
+Sending generic state update, broadcast on, view ID 'SceneID: 1 Level Prefix: 0'
+
+ 
+(Filename:  Line: 2489)
+
