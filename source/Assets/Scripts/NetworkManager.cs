@@ -11,6 +11,13 @@ public class NetworkManager : MonoBehaviour
 
     public GameObject playerPrefab;
 
+
+	void Start()
+	{
+		MasterServer.ipAddress = "87.238.194.227"; // Different location than the default one
+		MasterServer.port = 23466;
+	}
+
     void OnGUI()
     {
         if (!Network.isClient && !Network.isServer)
