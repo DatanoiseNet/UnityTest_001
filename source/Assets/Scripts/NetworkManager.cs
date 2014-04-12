@@ -20,7 +20,9 @@ public class NetworkManager : MonoBehaviour
 
     void OnGUI()
     {
-        if (!Network.isClient && !Network.isServer)
+		MasterServer.ipAddress = "87.238.194.227"; // Different location than the default one
+		MasterServer.port = 23466;
+		if (!Network.isClient && !Network.isServer)
         {
             if (GUI.Button(new Rect(100, 100, 250, 100), "Start Server"))
                 StartServer();
@@ -41,7 +43,9 @@ public class NetworkManager : MonoBehaviour
 
     private void StartServer()
     {
-        Network.InitializeServer(5, 25000, !Network.HavePublicAddress());
+		MasterServer.ipAddress = "87.238.194.227"; // Different location than the default one
+		MasterServer.port = 23466;
+		Network.InitializeServer(5, 25000, !Network.HavePublicAddress());
         MasterServer.RegisterHost(typeName, gameName);
     }
 
@@ -72,7 +76,9 @@ public class NetworkManager : MonoBehaviour
 
     private void JoinServer(HostData hostData)
     {
-        Network.Connect(hostData);
+		MasterServer.ipAddress = "87.238.194.227"; // Different location than the default one
+		MasterServer.port = 23466;
+		Network.Connect(hostData);
     }
 
     void OnConnectedToServer()
