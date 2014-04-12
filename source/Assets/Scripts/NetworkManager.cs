@@ -89,8 +89,8 @@ public class NetworkManager : MonoBehaviour
 
     private void SpawnPlayer()
     {
-        //Network.Instantiate(playerPrefab, Vector3.up * 5, Quaternion.identity, 0);
-		Network.Instantiate(playerPrefab, new Vector3(0,0,0) , Quaternion.identity, 0);
+        Network.Instantiate(playerPrefab, Vector3.up * 5, Quaternion.identity, 0);
+		//Network.Instantiate(playerPrefab, new Vector3(0,0,0) , Quaternion.identity, 0);
 		//Network.Instantiate(playerPrefab, new Vector3(0,0,0) , Quaternion.Euler(-90.0f, 0,0), 0);
 
     }
