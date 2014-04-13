@@ -56,10 +56,10 @@ public class Player : MonoBehaviour
     }
 
 
-    private void InputMovement()
+    public void InputMovement()
     {
-        if (Input.GetKey(KeyCode.W))
-            rigidbody.MovePosition(rigidbody.position + Vector3.forward * speed * Time.deltaTime);
+       if (Input.GetKey(KeyCode.W))
+           rigidbody.MovePosition(rigidbody.position + Vector3.forward * speed * Time.deltaTime);
 
         if (Input.GetKey(KeyCode.S))
             rigidbody.MovePosition(rigidbody.position - Vector3.forward * speed * Time.deltaTime);
